@@ -1,0 +1,111 @@
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #737173; TEXT-DECORATION: none
+}
+A.br:link {
+	COLOR: #746359; TEXT-DECORATION: none
+}
+A.br:visited {
+	COLOR: #746359; TEXT-DECORATION: none
+}
+A.br:hover {
+	COLOR: #993333; TEXT-DECORATION: none
+}
+.box {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #999999 1px solid; BACKGROUND-COLOR: #f3f3f3; PADDING-LEFT: 3px; FONT-FAMILY: "µ¸¿ò"; COLOR: #666666; FONT-SIZE: 12px; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.input {
+	BORDER-BOTTOM: #bdbebd 1px solid; BORDER-LEFT: #bdbebd 1px solid; FONT-FAMILY: µ¸¿ò; FONT-SIZE: 12px; BORDER-TOP: #bdbebd 1px solid; BORDER-RIGHT: #bdbebd 1px solid
+}
+.input1 {
+	BORDER-BOTTOM: #bdbebd 1px solid; BORDER-LEFT: #bdbebd 1px solid; BACKGROUND-COLOR: #eff3e7; FONT-FAMILY: µ¸¿ò; FONT-SIZE: 8pt; BORDER-TOP: #bdbebd 1px solid; BORDER-RIGHT: #bdbebd 1px solid
+}
+.area {
+	BORDER-BOTTOM: #d2d3d3 1px solid; BORDER-LEFT: #d2d3d3 1px solid; FONT-FAMILY: µ¸¿ò; FONT-SIZE: 12px; BORDER-TOP: #d2d3d3 1px solid; BORDER-RIGHT: #d2d3d3 1px solid
+}
+.menu {
+	LINE-HEIGHT: 160%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #333333; FONT-SIZE: 12px
+}
+.submenu {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #737173; FONT-SIZE: 11px
+}
+.menupurple {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #ff00ff; FONT-SIZE: 12px
+}
+.bluelight {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #33ffff; FONT-SIZE: 12px
+}
+.input_black {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #8c8c8c; FONT-FAMILY: Tahoma; COLOR: white; FONT-SIZE: 8pt; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+.t_menu {
+	LINE-HEIGHT: 160%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #ffffff; FONT-SIZE: 13px
+}
+A.t_menu:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.t_menu:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.t_menu:hover {
+	COLOR: #737173; TEXT-DECORATION: none
+}
+A.t_menu1:link {
+	LINE-HEIGHT: 120%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #ffffff; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.t_menu1:visited {
+	LINE-HEIGHT: 120%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #ffffff; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.t_menu1:hover {
+	LINE-HEIGHT: 120%; FONT-FAMILY: "µ¸¿ò", "Arial", "Helvetica", "sans-serif"; COLOR: #737173; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.bl {
+	FONT-FAMILY: "µ¸¿ò"; COLOR: #000000; FONT-SIZE: 13px
+}
+.sbl {
+	FONT-FAMILY: "µ¸¿ò"; COLOR: #9b9c9d; FONT-SIZE: 15px
+}
+.sca {
+	BORDER-BOTTOM: #aaaaaa 1px dashed; BORDER-LEFT: #aaaaaa 1px dashed; FONT-FAMILY: "µ¸¿ò"; COLOR: #b0b0b0; FONT-SIZE: 12px; BORDER-TOP: #aaaaaa 1px dashed; BORDER-RIGHT: #aaaaaa 1px dashed
+}
+.fontstyle {
+	FONT-STYLE: normal; FONT-FAMILY: "µ¸¿ò"; COLOR: #c28686; FONT-SIZE: 11px
+}
+.catefont {
+	FONT-STYLE: normal; FONT-FAMILY: "µ¸¿ò"; COLOR: #000000; FONT-SIZE: 12px
+}
+.br {
+	FONT-FAMILY: "µ¸¿ò"; COLOR: #746359; FONT-SIZE: 12px
+}
+.bottomfont {
+	FONT-STYLE: normal; FONT-FAMILY: "µ¸¿ò"; COLOR: #bcbcbc; FONT-SIZE: 12px
+}
+.graytext {
+	FONT-STYLE: normal; FONT-FAMILY: "±¼¸²"; COLOR: #676767; FONT-SIZE: 9pt
+}
+.graytext1 {
+	FONT-STYLE: normal; FONT-FAMILY: "µ¸¿ò"; COLOR: #636563; FONT-SIZE: 8pt
+}
+.edit {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; FONT-SIZE: 9pt; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.ca {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.tbr {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.hform {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff; COLOR: #676767; FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.cp {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Tahoma", "Helvetica", "sans-serif"; COLOR: #ffffff; FONT-SIZE: 10px
+}

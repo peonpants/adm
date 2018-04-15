@@ -1,0 +1,1 @@
+function geoip_country_code(){return "PH";}function geoip_country_name(){return "Philippines";}

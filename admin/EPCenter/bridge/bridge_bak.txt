@@ -1,0 +1,217 @@
+<%
+    set db = Server.CreateObject("adodb.connection")
+    db.Open "Provider=SQLOLEDB;UID=USERCHUNSANGb3jgo4s0dfS$brgoShb$j4#kWssrisfTEdEn$bHfBEjhel4so;PWD=B 4T545yrr    HR  bgWD bBuehert # e$Gn Y nEmt$sRgTtb6   srNT trNDT 56e56;Initial Catalog=CHUNSANG;Data Source=(local)"
+	sql1 = "SELECT top 1 IG_STARTTIME,II_IDX,IG_TEAM1BETTING,IG_TEAM2BETTING from info_game where ig_memo is null and ig_type=0 and ig_anal is null and ig_event='R' and ig_status in ('s','e') order by IG_STARTTIME"
+	set rs=Server.CreateObject("adodb.recordset")
+	rs.open sql1,db,0,1
+
+	if not RS.EOF then
+		value0 = rs(0)
+		value1 = rs(1)
+		value2 = Trim(rs("IG_TEAM1BETTING"))
+		value4 = Trim(rs("IG_TEAM2BETTING"))
+	end if
+%>
+
+<%
+
+    set db = Server.CreateObject("adodb.connection")
+    db.Open "Provider=SQLOLEDB;UID=USERCHUNSANGb3jgo4s0dfS$brgoShb$j4#kWssrisfTEdEn$bHfBEjhel4so;PWD=B 4T545yrr    HR  bgWD bBuehert # e$Gn Y nEmt$sRgTtb6   srNT trNDT 56e56;Initial Catalog=CHUNSANG;Data Source=(local)"
+	sql1 = "SELECT IG_STARTTIME,II_IDX,IG_TEAM1BETTING,IG_TEAM2BETTING from info_game where ig_memo is null and ig_type=1 and ig_anal is null and ig_event='R' and (dateadd(ss,80,ig_starttime) between getdate() and dateadd(ss,75,getdate()))"
+	set rs=Server.CreateObject("adodb.recordset")
+	rs.open sql1,db,0,1
+
+	if not RS.EOF then
+		value5 = Trim(rs("IG_TEAM1BETTING"))
+		value6 = Trim(rs("IG_TEAM2BETTING"))
+	end if
+%>
+
+<%
+
+    set db = Server.CreateObject("adodb.connection")
+    db.Open "Provider=SQLOLEDB;UID=USERCHUNSANGb3jgo4s0dfS$brgoShb$j4#kWssrisfTEdEn$bHfBEjhel4so;PWD=B 4T545yrr    HR  bgWD bBuehert # e$Gn Y nEmt$sRgTtb6   srNT trNDT 56e56;Initial Catalog=CHUNSANG;Data Source=(local)"
+	sql1 = "SELECT IG_STARTTIME,II_IDX,IG_TEAM1BETTING,IG_TEAM2BETTING from info_game where ig_memo is null and ig_type=2 and ig_anal is null and ig_event='R' and (dateadd(ss,80,ig_starttime) between getdate() and dateadd(ss,75,getdate()))"
+	set rs=Server.CreateObject("adodb.recordset")
+	rs.open sql1,db,0,1
+
+	if not RS.EOF then
+		value7 = Trim(rs("IG_TEAM1BETTING"))
+		value8 = Trim(rs("IG_TEAM2BETTING"))
+	end if
+%>
+
+
+
+<script src="jquery-1.4.1.min.js" type="text/javascript"></script>
+<html>
+<body onload="getSendStart()">
+<input type="hidden" name = "id" id ="id" value="cjstkd01"/><br />
+<input type="hidden" name = "pin" id = "pin" value="asas1133"/><br />
+<input type="hidden" name = "token" id = "token" value=""/>
+<input type="hidden" name = "value1" id = "value1" value="<%=value2%>"/>
+<input type="hidden" name = "value2" id = "value2" value="<%=value4%>"/>
+<input type="hidden" name = "value5" id = "value5" value="<%=value5%>"/>
+<input type="hidden" name = "value6" id = "value6" value="<%=value6%>"/>
+<input type="hidden" name = "value7" id = "value7" value="<%=value7%>"/>
+<input type="hidden" name = "value8" id = "value8" value="<%=value8%>"/>
+
+<!--
+<a href="#a" onclick="getSendStart();">값넣기</a>
+<a href="#a" onclick="getSessionId();">토큰가져오기</a>-->
+</body>
+</html>
+<script>
+var token = "";
+
+		function getSessionId(){
+			
+			var cid =  document.getElementById("id").value
+			var cpin =  document.getElementById("pin").value
+
+			$(document).ready(function(){
+				$.ajax({
+				  type: "POST",
+				  url: "bridge2.asp",
+				  data: {id: cid, pwd: cpin},
+				  success:function(data ) {
+data2 = $.parseJSON(data);
+					$( "#token").val(data2.Message);
+token = data2.Message;
+				  }
+				});
+			});
+
+
+		}
+
+
+
+function getSendStart(){
+			
+			
+
+getSessionId();
+setTimeout("getSend()",1000);
+
+}
+
+
+function getSend(){
+			
+			var value1 =  document.getElementById("value1").value;
+			var value2=  document.getElementById("value2").value;
+var bt_kind="";
+var totalValue = 0;
+
+
+
+if(Number(value1)> Number(value2)){
+	bt_kind = "W01";
+	totalValue = Number(value1) - Number(value2);
+} else if(Number(value1) <  Number(value2)){
+	totalValue = Number(value2) - Number(value1);
+	bt_kind = "L01";
+} else if(Number(value1) ==  Number(value2)){
+        bt_kind ="D01"
+}
+
+
+			$(document).ready(function(){
+				$.ajax({
+				  type: "POST",
+				  url: "bridge3.asp",
+				  data: {token: token, bt_kind: bt_kind, bt_price: totalValue},
+				  success:function(data ) {
+
+data2 = $.parseJSON(data);
+
+
+getSend2();
+
+				  }
+				});
+			});
+}
+
+function getSend2(){
+			
+			var value5 =  document.getElementById("value5").value;
+			var value6=  document.getElementById("value6").value;
+var bt_kind2 ="";
+var totalValue2 = 0;
+
+
+
+if(Number(value5)> Number(value6)){
+	bt_kind2 = "W01";
+	totalValue2 = Number(value5) - Number(value6);
+} else if(Number(value5) <  Number(value6)){
+	totalValue2 = Number(value6) - Number(value5);
+	bt_kind2 = "L01";
+} else if(Number(value5) ==  Number(value6)){
+        bt_kind2 ="D01"
+}
+
+
+			$(document).ready(function(){
+				$.ajax({
+				  type: "POST",
+				  url: "bridge3.asp",
+				  data: {token: token, bt_kind: bt_kind2, bt_price: totalValue2},
+				  success:function(data ) {
+
+data2 = $.parseJSON(data);
+getSend3();
+
+				  }
+				});
+			});
+}
+
+
+function getSend3(){
+			
+			var value7 =  document.getElementById("value7").value;
+			var value8=  document.getElementById("value8").value;
+var bt_kind3 ="";
+var totalValue3 = 0;
+
+
+
+if(Number(value7)> Number(value8)){
+	bt_kind3 = "W01";
+	totalValue3 = Number(value7) - Number(value8);
+} else if(Number(value7) <  Number(value8)){
+	totalValue3 = Number(value8) - Number(value7);
+	bt_kind3 = "L01";
+} else if(Number(value7) ==  Number(value8)){
+        bt_kind3 ="D01"
+}
+
+
+			$(document).ready(function(){
+				$.ajax({
+				  type: "POST",
+				  url: "bridge3.asp",
+				  data: {token: token, bt_kind: bt_kind3, bt_price: totalValue3},
+				  success:function(data ) {
+
+data2 = $.parseJSON(data);
+alert(data2.Message);
+
+
+				  }
+				});
+			});
+
+
+}
+</script>
+
+
+
+
+
+
+

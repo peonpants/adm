@@ -1,0 +1,537 @@
+@media only screen and (orientation:portrait) and (max-width:500px) and (max-height:890px), only screen and (orientation:landscape) and (max-width:890px) and (max-height:500px)
+{
+body {
+	overflow: scroll;
+}
+#mainSplitterDiv {
+	margin: 0px; padding: 0px; overflow: hidden;
+}
+.form_wrp#login_form {
+	background: none; border-radius: 0px; border: 0px currentColor; border-image: none; margin-top: 10px; box-shadow: 0px 0px 0px 0px;
+}
+#login_form #lang_link {
+	left: 130px; position: relative;
+}
+#login_form #lang_list_wrp {
+	left: 60px; top: 10px; width: 150px; position: relative;
+}
+#login_form h3 {
+	text-align: center;
+}
+#login_form .btn_holder {
+	text-align: center;
+}
+.popup {
+	width: 250px;
+}
+.popup#popupChangePassword {
+	width: 250px;
+}
+.my-popup {
+	width: 290px;
+}
+.pop-data-heading {
+	width: 250px;
+}
+.pop-data {
+	width: 250px;
+}
+.popupDisplay {
+	margin-left: -145px; position: absolute;
+}
+.changePassword.popupDisplay.popup {
+	margin-left: -145px; position: absolute;
+}
+.popup#popupChangePassword {
+	margin-left: -145px; position: absolute;
+}
+.my-popup {
+	margin-left: -145px; position: absolute;
+}
+.receipt-popup.my-popup {
+	margin-left: -155px;
+}
+.fixedWidth3 {
+	width: 180px;
+}
+.ie .fixedWidth3.smallFontNewPassword {
+	width: 180px;
+}
+.receipt-popup {
+	padding: 5px; width: 300px;
+}
+.receiptCustomerName input {
+	width: 150px;
+}
+.receipt-data dt {
+	width: auto;
+}
+#menu-pane {
+	display: none;
+}
+.k-splitbar-horizontal {
+	display: none;
+}
+.menu-collapsible-tab {
+	display: none;
+}
+#body-pane {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+.mobile-menu {
+	background: url("../Images/Menu/mobile-menu.png") no-repeat center; top: 8px; width: 25px; height: 25px; position: absolute; z-index: 100;
+}
+#headerInfoBlock h1 {
+	display: none;
+}
+#timeInfo {
+	display: none;
+}
+.user_datails .accessibility {
+	display: none;
+}
+.user_datails {
+	padding: 0px; border: 0px currentColor; border-image: none; width: 100%;
+}
+#balanceData {
+	clear: none;
+}
+#infoBlock {
+	text-align: left; float: left; max-width: 170px;
+}
+.user_datails p {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+header#headerInfoBlock {
+	padding: 5px; height: 20px; background-color: rgb(0, 0, 0);
+}
+header#headerInfoBlock h1 {
+	color: rgb(255, 255, 255); text-shadow: none;
+}
+#progressive-info-block {
+	padding: 0px !important;
+}
+.info-block-info-icon {
+	display: none !important;
+}
+#gridToolbar .item {
+	display: none;
+}
+.inner_toolbar_wrp #print_icon {
+	display: none;
+}
+.inner_toolbar_wrp #back_link {
+	display: inline-block;
+}
+.inner_toolbar_wrp #export_icon {
+	display: inline-block;
+}
+#gridActionToolBar .item {
+	background: none; padding: 5px 10px; border-bottom-color: gray; border-bottom-width: 1px; border-bottom-style: dotted; float: none; display: block;
+}
+#gridActionToolBar :last-of-type.item {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+#gridActionToolBar {
+	background: 0px 0px rgb(255, 255, 255); padding: 5px; border: 1px solid gray; border-image: none; top: 35px; width: auto; right: 10px; display: none; position: absolute; z-index: 100;
+}
+#gridSearchToolBar {
+	background: 0px 0px rgb(255, 255, 255); padding: 5px; border: 1px solid gray; border-image: none; top: 35px; width: auto; right: 30px; display: none; position: absolute; z-index: 100;
+}
+#gridToolbar .searchBtnContainer {
+	display: block;
+}
+#action_menu_icon {
+	padding: 0px !important; top: 8px; width: 25px; height: 25px; right: 10px; display: block !important; position: absolute; z-index: 100;
+}
+#action_menu_icon .icon {
+	background: none; margin: 8px 5px 5px;
+}
+#search_icon .icon {
+	background: url("../Images/search.png") no-repeat center;
+}
+#search_icon {
+	padding: 0px; top: 8px; width: 25px; height: 25px; right: 40px; display: block !important; position: absolute; z-index: 100;
+}
+#gridToolbar {
+	padding-left: 30px;
+}
+.toolbar_wrp {
+	padding-left: 30px;
+}
+#gridToolbar .cancelSearch {
+	left: 190px; top: 9px; width: 50px; position: absolute; z-index: 200;
+}
+.k-pager-input {
+	padding: 0px !important;
+}
+.k-pager-sizes {
+	padding: 0px !important;
+}
+div.k-grid-header table[role='grid'] {
+	min-width: 100% !important;
+}
+div.k-grid-content table[role='grid'] {
+	min-width: 100% !important;
+}
+div.k-grid-content table[role='treegrid'] {
+	min-width: 100% !important;
+}
+.k-pager-info {
+	padding: 5px !important;
+}
+.k-selectable col {
+	width: 33% !important;
+}
+div.k-grid-header table[role='grid'] col {
+	width: 33% !important;
+}
+div.k-grid-header table[role='grid'] col.k-hierarchy-col {
+	width: 0px !important;
+}
+.nested_block td.first-block {
+	display: block;
+}
+.nested_block td.second-table-half {
+	display: block;
+}
+.first-block table td {
+	display: block;
+}
+.user_func_wrp table {
+	table-layout: auto;
+}
+.user_func_wrp table tbody {
+	float: left;
+}
+table.user_func tbody {
+	float: left;
+}
+.user_func_wrp {
+	border-top-color: rgb(196, 196, 196); border-top-width: 1px; border-top-style: solid;
+}
+#withdrawalDivBlock {
+	border-top-color: rgb(196, 196, 196); border-top-width: 1px; border-top-style: solid;
+}
+.nested_block td {
+	border: 0px currentColor !important; border-image: none !important;
+}
+.enabled.contact .change {
+	float: none;
+}
+.nestedBlockChange {
+	top: 0px;
+}
+.left {
+	float: none;
+}
+.contact :nth-child(2).left label {
+	margin-left: 0px;
+}
+span.k-icon {
+	font-size: 0px !important;
+}
+.AddPlayers {
+	padding-left: 5px;
+}
+.AddPlayers td {
+	padding-right: 0px !important; padding-left: 0px !important;
+}
+.AddPlayers td.right {
+	padding: 0px; width: 80px; text-align: left;
+}
+select.fixedWidth3 {
+	width: 200px;
+}
+.inputAppend input[type='tel'] {
+	width: 125px;
+}
+.k-loading-mask {
+	position: fixed !important; z-index: 100 !important;
+}
+.addStationsName_wrapper {
+	height: 40px;
+}
+#RemoveStationsInfoButton {
+	margin-top: 0px;
+}
+#RemovePlayersInfoButton {
+	margin-top: 0px;
+}
+#formCommissionFee .table-wrap table {
+	width: 280px !important;
+}
+#commission-fee > tbody > tr > td {
+	display: table-row !important;
+}
+#formCommissionFee .nested .table-wrap th {
+	-ms-word-wrap: break-word !important;
+}
+#formCommissionFee .nested .table-wrap td {
+	-ms-word-wrap: break-word !important;
+}
+#PlayerDetails .mobileCasinoAcc select#playerLanguageChoice {
+	width: 120px;
+}
+}
+@media only screen and (orientation:portrait) and (max-width:480px) and (max-height:640px), only screen and (orientation:landscape) and (max-width:640px) and (max-height:480px)
+{
+p {
+	font-size: 11px !important; text-shadow: none;
+}
+label {
+	font-size: 11px !important; text-shadow: none;
+}
+span {
+	font-size: 11px !important; text-shadow: none;
+}
+button {
+	font-size: 11px !important; text-shadow: none;
+}
+div {
+	font-size: 11px !important; text-shadow: none;
+}
+input {
+	font-size: 11px !important; text-shadow: none;
+}
+.user_datails span {
+	line-height: 10px !important; font-size: 8px !important;
+}
+.user_datails p {
+	line-height: 10px !important; font-size: 8px !important;
+}
+span.visibleMsg {
+	line-height: 10px !important; font-size: 8px !important;
+}
+header#headerInfoBlock {
+	margin-right: 0px !important; margin-left: 0px !important;
+}
+.user_func button {
+	width: 60px !important; height: 70px !important;
+}
+div.depositSuccessfulAction {
+	padding-right: 5px;
+}
+div.withdrawalSuccessfulAction {
+	padding-right: 5px;
+}
+#receiptNotesArea {
+	margin-bottom: 10px;
+}
+.print-button {
+	bottom: 5px; float: left; position: absolute; min-width: 90px;
+}
+.cancel-button {
+	bottom: 5px; float: left; position: absolute; min-width: 90px;
+}
+.save-button {
+	bottom: 5px; float: left; position: absolute; min-width: 90px;
+}
+.cancel-button {
+	left: 0px; margin-left: auto;
+}
+.print-button {
+	left: 92px;
+}
+.save-button {
+	left: 192px;
+}
+.k-header > .k-grid-filter {
+	margin: -0.5em -0.6em -10em;
+}
+.k-header > .k-header-column-menu {
+	margin: -0.5em -0.6em -10em;
+}
+.TabDetailsInfo {
+	margin: 0px !important;
+}
+.detailsBody > div:first-child {
+	margin: 40px 10px;
+}
+.form-area .input-block input[type='checkbox'] + .nested {
+	margin: 4px 10px 0px 0px;
+}
+#accountDetailsTabActions .user_func tr {
+	display: block;
+}
+.nested_block .user_func_wrp .user_func tr {
+	display: block;
+}
+.member_nested_block .user_func tr {
+	display: block;
+}
+#reportHeaderContainer {
+	height: 480px; -ms-overflow-y: scroll;
+}
+.collapsed#reportHeaderContainer {
+	height: auto;
+}
+#reportData {
+	-ms-overflow-y: scroll; min-height: 320px;
+}
+#reportrequire {
+	height: 650px;
+}
+#reportData {
+	max-height: 320px;
+}
+#reportGridData {
+	min-height: 480px;
+}
+}
+@media only screen and (orientation:portrait) and (min-width:320px) and (max-height:480px)
+{
+.AddPlayers td.right {
+	width: 160px;
+}
+.accountDetails td.right {
+	width: 160px;
+}
+}
+@media only screen and (orientation:landscape) and (min-width:480px) and (max-height:320px)
+{
+.changePassword.popupDisplay.popup {
+	margin-top: -130px;
+}
+.popupDisplay.popup#popupChangePassword {
+	margin-top: -125px;
+}
+#mainSplitterDiv {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+#body-pane {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+#body-pane-content {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+.reportRequire {
+	overflow: hidden; padding-left: 107px;
+}
+}
+@media only screen and (orientation:landscape) and (min-width:568px) and (max-height:320px)
+{
+#mainSplitterDiv {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+#body-pane {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+#body-pane-content {
+	left: 0px !important; width: auto !important; min-width: 100%;
+}
+}
+@media only screen and (orientation:portrait) and (width:320px) and (height:460px)
+{
+.k-pane .lang_list_wrp {
+	top: -215px;
+}
+}
+@media only screen and (orientation:landscape) and (width:568px) and (height:320px)
+{
+.k-pane .lang_list_wrp {
+	top: -250px;
+}
+}
+@media only screen and (orientation:portrait) and (min-width:360px) and (max-height:640px)
+{
+.changePassword.popupDisplay.popup {
+	
+}
+}
+@media only screen and (orientation:landscape) and (min-width:640px) and (max-height:360px)
+{
+.changePassword.popupDisplay.popup {
+	margin-top: -152px;
+}
+.popupDisplay.popup#popupChangePassword {
+	margin-top: -138px;
+}
+#mainSplitterDiv {
+	width: 640px;
+}
+#body-pane {
+	width: 640px;
+}
+#body-pane-content {
+	width: 640px;
+}
+.reportRequire {
+	overflow: hidden; padding-left: 266px;
+}
+}
+@media only screen and (orientation:portrait) and (max-width:768px) and (min-width:768px) and (max-height:928px)
+{
+header {
+	padding: 10px;
+}
+.user_datails p {
+	font-size: 12px;
+}
+.user_func tbody {
+	margin-right: 60px;
+}
+#accountDetailsTabActions .user_func tr {
+	display: block;
+}
+.nested_block .user_func_wrp .user_func tr {
+	display: block;
+}
+.member_nested_block .user_func tr {
+	display: block;
+}
+}
+@media only screen and (orientation:landscape) and (max-width:768px) and (min-width:768px) and (max-height:519px)
+{
+header {
+	padding: 10px;
+}
+.user_datails p {
+	font-size: 12px;
+}
+.user_func tbody {
+	margin-right: 135px;
+}
+#accountDetailsTabActions .user_func tr {
+	display: block;
+}
+.nested_block .user_func_wrp .user_func tr {
+	display: block;
+}
+.member_nested_block .user_func tr {
+	display: block;
+}
+}
+@media only screen and (orientation:portrait) and (max-width:500px) and (min-width:480px) and (max-height:890px) and (min-height:640px), only screen and (orientation:landscape) and (max-width:890px) and (min-width:640px) and (max-height:500px) and (min-height:480px)
+{
+p {
+	font-size: 12px !important; text-shadow: none;
+}
+label {
+	font-size: 12px !important; text-shadow: none;
+}
+span {
+	font-size: 12px !important; text-shadow: none;
+}
+button {
+	font-size: 12px !important; text-shadow: none;
+}
+div {
+	font-size: 12px !important; text-shadow: none;
+}
+input {
+	font-size: 12px !important; text-shadow: none;
+}
+}
+@media only screen and (orientation:portrait) and (width:768px) and (height:927px) and (device-width:768px) and (max-device-height:1024px) and (aspect-ratio:256 / 309) and (device-aspect-ratio:3 / 4)
+{
+header#headerInfoBlock div.user_datails {
+	padding: 0px 6px; font-size: 11px;
+}
+}
+@media only screen and (orientation:landscape) and (width:1024px) and (height:671px) and (device-width:768px) and (max-device-height:1024px) and (aspect-ratio:1024 / 671) and (device-aspect-ratio:3 / 4)
+{
+header#headerInfoBlock div.user_datails {
+	padding: 0px 6px; font-size: 12px;
+}
+}

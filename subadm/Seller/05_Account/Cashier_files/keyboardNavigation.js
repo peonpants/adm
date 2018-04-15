@@ -1,0 +1,1 @@
+var TeG=TeG||{},tegKeyboardNavigation;TeG.KeyboardNavigation=function(){return{Init:function(n){$(document).keyboardNavigation(n)}}};tegKeyboardNavigation=TeG.KeyboardNavigation()

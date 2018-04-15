@@ -1,0 +1,38 @@
+<!-- METADATA TYPE="typelib" FILE="C:\Program Files\Common Files\SYSTEM\ADO\msado15.dll" NAME="ADODB Type Library" -->
+<script LANGUAGE="VBScript" RUNAT="Server">  
+SUB Application_OnStart
+
+
+    set fso = Server.CreateObject("Scripting.FileSystemObject")
+        set f = fso.OpenTextFile("D:\_soso\DBConfig\DBConnString_TOMORROW_user.dat")
+		strconnect = f.Readline
+    
+    Set f = Nothing
+	Set fso = Nothing
+	        
+
+	Application("DBConnString")	= strconnect
+
+	
+END SUB
+
+SUB Application_OnEnd
+	On Error Resume Next
+	On Error Goto 0
+END SUB
+
+
+Sub Session_OnStart 
+
+	On Error Resume Next
+
+	Session("JOBSITE")	= "CLEAR"
+	SESSION.TIMEOUT = 20
+
+End Sub 
+
+Sub Session_OnEnd
+
+
+End Sub
+</script>

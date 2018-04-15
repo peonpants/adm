@@ -1,0 +1,182 @@
+
+
+
+
+body,table,td,tr,select,input,textarea,file    {font-size:11px ;  font-family:verdana, µ¸¿ò, Tahoma; color:#525252; letter-spacong: -1px; word-spacing: -2px;}
+a:link       {font-size:11px ; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#525252 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+a:visited  {font-size:11px ; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#525252 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+a:active   {font-size:11px ; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#F9490F ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+a:hover    {font-size:11px ; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#F9490F ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+
+
+
+.text1                 {font-size:12px ; line-height:16px; font-family:µ¸¿ò, verdana,Tahoma; color:#C5C5C5;}
+
+
+.text2                 {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#C5C5C5;}
+.text2   a:link       {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#C5C5C5; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text2   a:visited  {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#C5C5C5; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text2   a:active   {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F9490F; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text2   a:hover    {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F9490F; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+
+
+
+.text3                 {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#C5C5C5;}
+.text3   a:link       {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#C5C5C5; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text3   a:visited  {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#C5C5C5; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text3   a:active   {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F9490F; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text3   a:hover    {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F9490F; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+
+
+
+.text4                 {font-size:11px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#000000;}
+.text5                 {font-weight:bold; font-size:12px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F9490F; letter-spacong: -1px; word-spacing: -2px;}
+.text6                 {font-size:12px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#78FF00; letter-spacong: -1px; word-spacing: -2px;}
+.text7                 {font-size:12px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#0BDDDD; letter-spacong: -1px; word-spacing: -2px;}
+.text8                 {font-size:12px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F5DE0A; letter-spacong: -1px; word-spacing: -2px;}
+.text9                 {font-size:12px ; line-height:16px; font-family:verdana, Tahoma, µ¸¿ò; color:#F9490F; letter-spacong: -1px; word-spacing: -2px;}
+
+.text_body                 {font-size:12px ; line-height:18px; font-family:µ¸¿ò, verdana,Tahoma; color:#C5C5C5; letter-spacong: -1px; word-spacing: -2px;}
+
+
+.text07                 {font-size:12px ;  font-family:verdana, Tahoma, µ¸¿ò; color:#ffffff; letter-spacong: -1px; word-spacing: -2px;}
+
+
+.text_bold1                 {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:µ¸¿ò, verdana,Tahoma; color:#FA8000; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold1   a:link       {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold1   a:visited  {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold1   a:active   {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold1   a:hover    {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+
+
+
+.text_bold2                 {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:µ¸¿ò, verdana,Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold2   a:link       {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold2   a:visited  {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#D7011B ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold2   a:active   {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#D7011B ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+.text_bold2   a:hover    {font-weight:bold; font-size:12px ; font-weight:bold; line-height:16px; font-family:verdana, µ¸¿ò, Tahoma ; color:#D7011B ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+
+
+
+.text_small1                 {font-size:11px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#868686; letter-spacong: -1px; word-spacing: -2px;}
+.text_small1   a:link       {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#868686 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_small1   a:visited  {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#868686 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_small1   a:active   {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+.text_small1   a:hover    {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+
+
+
+.text_small2                 {font-size:11px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#FA8000; letter-spacong: -1px; word-spacing: -2px;}
+.text_small2   a:link       {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_small2   a:visited  {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:none; letter-spacong: -1px; word-spacing: -2px;}
+.text_small2   a:active   {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+.text_small2   a:hover    {font-size:11px ; line-height:14px; font-family:verdana, µ¸¿ò, Tahoma ; color:#FA8000 ; text-decoration:underline; letter-spacong: -1px; word-spacing: -2px;}
+
+
+.text1                        {font-size:12px ; line-height:14px; font-family:verdana,µ¸¿ò, Tahoma; color:#868686; letter-spacong: -1px; word-spacing: -2px;}
+.text_color                 {font-size:12px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_color2                 {font-weight:bold; font-size:12px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_color3                 {font-weight:bold; font-size:12px ; line-height:14px; font-family:µ¸¿ò,verdana, Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_color4                 {font-weight:bold; font-size:12px ; line-height:14px; font-family:verdana,µ¸¿ò,Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_color5                 {font-size:12px ; line-height:14px; font-family:verdana,µ¸¿ò, Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+
+
+.text_small                 {font-size:11px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#868686; letter-spacong: -1px; word-spacing: -2px;}
+.text_small_color1       {font-size:11px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#FA8000; letter-spacong: -1px; word-spacing: -2px;}
+.text_small_color2       {font-size:11px ; line-height:14px; font-family:µ¸¿ò, verdana,Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_small_color3       {font-size:11px ; line-height:14px; font-family:verdana,µ¸¿ò, Tahoma; color:#D7011B; letter-spacong: -1px; word-spacing: -2px;}
+.text_small_line           {font-size:11px ; font-family:µ¸¿ò, verdana,Tahoma; color:#c7c7c7; padding:2px 7px 0px 7px; align:center;}
+
+
+
+.input {border:solid 1px}
+.input1     {font-weight:bold; font-size: 12px; color: #F9490F;  font-family: verdana,µ¸¿ò, Tahoma; height:22px; border: 1px solid #C7C7C7; padding:2px;}
+.input2     {font-size: 12px; color: #C5C5C5;  font-family: verdana,µ¸¿ò, Tahoma; height:22px; border: 1px solid #6C6C6C; padding:2px; background-color:rgb(76,76,76);}
+.input4     {font-size: 12px; color: #000000;  font-family: verdana,µ¸¿ò, Tahoma; height:22px; border: 1px solid #C7C7C7; padding:2px; background-color:ffffff;}
+.textarea1  { font-size: 12px; color: #C5C5C5;  font-family: verdana,µ¸¿ò, Tahoma; border: 1px solid #6C6C6C;  padding:5pt; background-color:rgb(76,76,76);}
+
+.input_login     { font-size: 12px; color: #868686;  font-family: µ¸¿ò, verdana,Tahoma; height:22px; border: 1px solid #C8251E; padding:3px;}
+.input_box       { font-size: 12px; color: #868686;  font-family: µ¸¿ò,verdana,Tahoma; height:20px; border: 1px solid #ffffff;}
+.input_boxred       { font-size: 12px; color: red;  font-family: µ¸¿ò,verdana,Tahoma; height:20px; border: 1px solid #ffffff;}
+.input_box1       { font-size: 12px; color: #868686;  font-family: µ¸¿ò,verdana,Tahoma; height:20px; border: 1px solid #aaaaaa;}
+.textarea_basic  { font-size: 12px; color: #868686;  font-family: µ¸¿ò,verdana,Tahoma; border: 1px solid #D3D3D3;  padding:5pt;}
+
+
+.img_board    {border:1px solid #E2E2E2;}
+img  { border:0px; }
+
+
+
+.line1 { height:1px; background-color:#3E3E3E; }
+.line2 { height:1px; background-color:#C6FF93; }
+.line3 { height:1px; background-color:#EEEEEE; }
+.line4 { height:1px; background-color:#F9490F; }
+.line5 { height:1px; background-color:#E8E8E8; }
+.line6 { height:1px; background-color:#F5F5F5; }
+.line7 { height:1px; background-color:#EAEAEA; }
+
+.paging {border:solid 1px;color:#AAAAAA;padding:1 1 1 1;font-size:12px;}
+.paging_crnt {border:solid 1px;color:red;padding:1 1 1 1;font-size:12px;}
+.paging_txt1 {border:solid 1px;color:#AAAAAA;padding:1 5 1 5;font-size:11px;}
+
+
+
+
+
+/* bet game */
+.noSelected {vertical-align:middle;background:#000000;color:#FFFFFF;border: 1px solid #838383; }
+.noSelected table {color:#FFFFFF;}
+.Selected {vertical-align:middle;background:#FFDB3C;color:#000000;border: 1px solid #838383;}
+.Selected table {color:#000000; }
+
+.noChoice {vertical-align:middle;background:#000000;color:#FFFFFF;border: 1px solid #838383; }
+.noChoice table {color:#FFFFFF; }
+.Choice {vertical-align:middle;background:#FFDB3C;color:#000000;border: 1px solid #838383;}
+.Choice table {color:#000000; }
+
+/* bet game history */
+.failGame {vertical-align:middle;background:green;color:#FFFFFF;border: 1px solid #838383; }
+
+.ingChoice {vertical-align:middle;background:#000000;color:#E9BB5B;}
+.ingChoice table {color:#E9BB5B; }
+
+
+.trEndGame {background-color:#331903;color:#eeeeee;}
+.trEndGame table {color:#FFFFFF;color:#eeeeee;}
+.trIngGame {background-color:#000000;color:#FFFFFF;}
+.trEndGame table {color:#FFFFFF;}
+
+.black {color:#000000;}
+
+.td_red_bold
+{
+	background-color:#324963;
+	color:#ffffff;
+	font-weight:bold;	
+}
+.td_red_bold table
+{
+	color:#474B4C;
+}
+.baord_table_bg
+{
+	background-color:#262626;
+}
+
+.mainGameText
+{
+	color:#B48D3B;
+}
+
+.Winner
+{
+	color:ffffff;background:00A1CA;font-weigth:bold;
+}
+.Looser
+{
+	color:000000;background:FF9712;font-weigth:bold;
+}
+.Cancel
+{
+	color:ffffff;background:9F0328;font-weigth:bold;
+}

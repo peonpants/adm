@@ -1,0 +1,190 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML lang=ko xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>로그인</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=copyright 
+content="Copyright(c) Simplex Internet Inc.All Rights Reserved."><LINK 
+rel=stylesheet type=text/css href="nimg/login2.css" media=screen>
+<SCRIPT type=text/javascript src="nimg/jquery-1.7.1.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="nimg/ui.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="nimg/jquery-ui.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+var focusType = "mall_id";
+
+function open_popup(url, width, height, scrollbars) {
+	winname = 'p1';
+	option = 'toolbar=no location=no scrollbars='+scrollbars+' resizeable=yes width='+width+' height='+height;
+	opener = window.open( url, winname, option ) ;
+}
+
+function form_check() {
+
+    if( $("#userid_hidden").val() == 1 ) {
+		$("#userid").val($("#mall_id").val());
+	}
+    if ( $("#mall_id").val() == "" ) {
+		alert("상점 아이디가 비었습니다.");
+		$("#mall_id").focus();
+		return false;
+	}
+    if ( $("#userid").val() == "" ) {
+		alert("로그인아이디가 비었습니다.");
+		$("#userid").focus();
+		return false;
+	}
+	if ( $("#userpasswd").val() == "" ) {
+		alert("비밀번호가 비었습니다.");
+		$("#userpasswd").focus();
+		return false;
+	}
+
+	$("#frm_user").submit();
+}/*
+
+function shop_admin_icon(){
+    if(confirm('바탕화면에 쇼핑몰 관리자 바로가기를 생성하시겠습니까?')){
+        DesktopIconObj.addIcon('http://eclogin.cafe24.com/Shop/','쇼핑몰 관리 어드민','http://img.cafe24.com/images/ec_admin/etc/EC_quick_02.ico');
+        alert('생성되었습니다.');
+    }else{
+        alert('취소되었습니다.');
+    }
+}*/
+
+function focus_action(id) {
+	$("#"+id).css ( { 'background-image':'url(none)' } )
+}
+
+function blur_aciton(id) {
+	if ($("#"+id).val() == "") {
+		$("#"+id).css ( { 'background-image':'url(http://180.178.53.182:82/nimg/bg_placeholder.png)' } )
+	}
+}
+
+$(document).bind("keydown", formSumbit);
+function formSumbit(e) {
+	if (window.event) {
+		if (event.keyCode == 13)  {
+			form_check();
+		}
+	} else {
+		if (e.keyCode == 13) {
+			form_check();
+		}
+	}
+}
+
+</SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.19258"></HEAD>
+<BODY>
+<!--<OBJECT id=DesktopIconObj 
+codeBase="http://img.cafe24.com/images/ec_admin/etc/DesktopIcon.cab#version=1,0,0,5" 
+classid=CLSID:8224896C-5852-4D0F-8AF7-CA9947F8FB2B width=0 height=0></OBJECT>-->
+<DIV id=accNav>
+<P></P></DIV>
+<HR class=layout>
+
+<DIV id=header>
+<H1></DIV>
+<HR class=layout>
+
+<DIV id=container>
+<DIV id=content>
+<DIV 
+class="loginArea gTabMerge eTabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+<H1><IMG alt="쇼핑몰관리자 로그인" src="nimg/title-login.png"></H1>
+<!--<DIV class="mTab typeNav">
+<!--<UL 
+class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+  <LI class="admin ui-state-default ui-corner-top"></A></LI>
+  <LI class="staff ui-state-default ui-corner-top ui-tabs-selected"><A 
+  href="http://eclogin.cafe24.com/Shop/?url=Init&amp;login_mode=2#"></A></LI>
+  <LI class="supplier ui-state-default ui-corner-top"></LI></UL></DIV>-->
+<FORM id=frm_user method=post name=frm_user action=https://eclogin.cafe24.com/Shop/index.php>
+<INPUT value=Run type=hidden name=url> 
+<INPUT type=hidden name=IS_DEVSERVER> 
+<INPUT id=userid_hidden type=hidden name=userid_hidden> 
+<INPUT value=2 type=hidden name=login_mode> 
+
+<DIV id=tabStaff><!-- 참고 : 부운영자 탭 영역 -->
+<DIV class=mLogin>
+<FIELDSET><LEGEND>로그인</LEGEND>
+
+<DIV class=gInput><LABEL><SPAN class=item>관리자아이디</SPAN> <INPUT 
+onblur="blur_aciton('mall_id');" id=mall_id class="fText shopId" 
+onfocus="focus_action('mall_id');" tabIndex=1 type=text name=mall_id> 
+</LABEL><LABEL class=fChk><!--<INPUT title="상점 아이디 저장" tabIndex=4 type=checkbox 
+name=check1> 저장</LABEL>--> <SPAN class=help></SPAN> 
+
+<DIV class="mTooltip hide">
+<P><STRONG>상점아이디란?</STRONG><BR>서비스신청을 할 때 입력하는 상점 아이디를 말합니다.<BR>상점 아이디는 쇼핑몰 무료 
+도메인(http://아이디.cafe24.com) 에서 아이디 부분에 적용됩니다. </P><A class=btnClose 
+href="http://eclogin.cafe24.com/Shop/?url=Init&amp;login_mode=2#none">도움말 닫기</A> 
+<SPAN class=icoArrBR></SPAN></DIV></DIV>
+<DIV class=gInput><LABEL><SPAN class=item>로그인 아이디</SPAN> <INPUT 
+onblur="blur_aciton('userid');" id=userid class="fText loginId" 
+onfocus="focus_action('userid');" tabIndex=2 type=text name=userid> 
+</LABEL><LABEL class=fChk><!--<INPUT title="로그인 아이디 저장" tabIndex=5 type=checkbox 
+name=check2> 저장</LABEL> --><SPAN class=help></SPAN> 
+<DIV class="mTooltip hide">
+<P><STRONG>로그인 아이디란?</STRONG><BR>부운영자, 공급사의 경우에는<BR>대표운영자가 발행해주는 아이디를 로그인ID라 
+말합니다. </P><A class=btnClose 
+href="http://eclogin.cafe24.com/Shop/?url=Init&amp;login_mode=2#none">도움말 닫기</A> 
+<SPAN class=icoArrBR></SPAN></DIV></DIV>
+<DIV class=gInput><LABEL><SPAN class=item>비밀번호</SPAN> <INPUT 
+onblur="blur_aciton('userpasswd');" id=userpasswd class="fText pw" 
+onfocus="focus_action('userpasswd');" tabIndex=3 type=password name=userpasswd> 
+</LABEL><LABEL class=fChk><!--<INPUT title="비밀번호 저장" tabIndex=6 type=checkbox 
+name=check3> 저장</LABEL>--> </DIV>
+<P class=gButton><A class=btnSubmit tabIndex=7 onclick=form_check(); 
+href="http://eclogin.cafe24.com/Shop/?url=Init&amp;login_mode=2#">로그인</A> </P>
+<!--<P class=gLink><A 
+onclick="open_popup('https://user.cafe24.com/pwsearch.php', 780, 500, 'yes');return false;" 
+href="#">아이디 / 비밀번호 
+찾기</A> <A onclick=shop_admin_icon(); 
+href="#">관리자 바로가기 
+만들기</A> </P>--></FIELDSET> </DIV></DIV></DIV><INPUT type=hidden name=onnode> <INPUT 
+type=hidden name=submenu> <INPUT type=hidden name=menu> <INPUT type=hidden 
+name=mode> <INPUT type=hidden name=c_name> <INPUT type=hidden name=loan_type> 
+<INPUT type=hidden name=addsvc_suburl> </FORM>
+<DIV class=banner><!-- 참고 : 배너 영역 --><SPAN id=admngDebug></SPAN><SPAN 
+id=admngSide_1></SPAN></DIV></DIV>
+<DIV class=promotion><!-- 참고 : 프로모션 영역 --><SPAN 
+id=admngSide_2></SPAN></DIV></DIV>
+<HR class=layout>
+
+<DIV id=footer>
+<H2>페이지 하단</H2>
+<P><IMG alt="Copyright© Simplex Internet Inc.All Rights Reserved." 
+src="nimg/footer-copyright.png"></P></DIV>
+<!--<SCRIPT id=admng type=text/javascript src="nimg/WebAnalysis.js"></SCRIPT>
+
+<SCRIPT id=admng type=text/javascript 
+src="nimg/WebAnalysis(1).js"></SCRIPT>
+<!-- 로그분석 시작 -->
+<!--<SCRIPT id=log_script language=javascript src="nimg/weblog.js"></SCRIPT>
+<!-- 로그분석 완료 --><!-- 리포트2.0 로그분석코드 시작 -->
+<!--<SCRIPT type=text/javascript>
+var JsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+var uname = escape('판매몰');
+document.write(unescape("%3Cscript id='log_script' src='" + JsHost + "weblog2-001.cafe24.com/weblog.js?uid=one945&uname="+uname+"' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+
+<SCRIPT id=cmclog_script type=text/javascript 
+src="nimg/weblog(1).js"></SCRIPT>
+<!-- 리포트2.0  로그분석코드 완료 --><!-- Google 로그분석 -->
+<!--<SCRIPT type=text/javascript src="nimg/urchin.js">
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-195308-1";
+urchinTracker();
+</SCRIPT>-->
+
+<DIV 
+style="BORDER-BOTTOM: #999999 1px solid; POSITION: absolute; BORDER-LEFT: #999999 1px solid; BACKGROUND-COLOR: #ffffff; DISPLAY: none; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid" 
+id=layerLogin></DIV></BODY></HTML>

@@ -1,0 +1,192 @@
+#qunit-tests {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial,sans-serif;
+}
+#qunit-header {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial,sans-serif;
+}
+#qunit-banner {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial,sans-serif;
+}
+#qunit-testrunner-toolbar {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial,sans-serif;
+}
+#qunit-userAgent {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial,sans-serif;
+}
+#qunit-testresult {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial,sans-serif;
+}
+#qunit-testrunner-toolbar {
+	font-size: small;
+}
+#qunit-userAgent {
+	font-size: small;
+}
+#qunit-testresult {
+	font-size: small;
+}
+#qunit-tests li {
+	font-size: small;
+}
+#qunit-tests {
+	font-size: smaller;
+}
+#qunit-tests {
+	margin: 0px; padding: 0px;
+}
+#qunit-header {
+	margin: 0px; padding: 0px;
+}
+#qunit-banner {
+	margin: 0px; padding: 0px;
+}
+#qunit-userAgent {
+	margin: 0px; padding: 0px;
+}
+#qunit-testresult {
+	margin: 0px; padding: 0px;
+}
+#qunit-modulefilter {
+	margin: 0px; padding: 0px;
+}
+#qunit-header {
+	padding: 0.5em 0px 0.5em 1em; border-radius: 5px 5px 0px 0px; color: rgb(134, 153, 164); line-height: 1em; font-size: 1.5em; font-weight: normal; background-color: rgb(13, 51, 73); -moz-border-radius: 5px 5px 0 0; -webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;
+}
+#qunit-header a {
+	color: rgb(194, 204, 209); text-decoration: none;
+}
+#qunit-header a:hover {
+	color: rgb(255, 255, 255);
+}
+#qunit-header a:focus {
+	color: rgb(255, 255, 255);
+}
+#qunit-testrunner-toolbar label {
+	padding: 0px 0.5em 0px 0.1em; display: inline-block;
+}
+#qunit-banner {
+	height: 5px;
+}
+#qunit-testrunner-toolbar {
+	padding: 0.5em 0px 0.5em 2em; color: rgb(94, 116, 11); overflow: hidden; background-color: rgb(238, 238, 238);
+}
+#qunit-userAgent {
+	padding: 0.5em 0px 0.5em 2.5em; color: rgb(255, 255, 255); text-shadow: 2px 2px 1px rgba(0,0,0,0.5); background-color: rgb(43, 129, 175);
+}
+#qunit-modulefilter-container {
+	float: right;
+}
+#qunit-tests {
+	list-style-position: inside;
+}
+#qunit-tests li {
+	padding: 0.4em 0.5em 0.4em 2.5em; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; list-style-position: inside;
+}
+.hidepass#qunit-tests li.pass {
+	display: none;
+}
+.hidepass#qunit-tests li.running {
+	display: none;
+}
+#qunit-tests li strong {
+	cursor: pointer;
+}
+#qunit-tests li a {
+	padding: 0.5em; color: rgb(194, 204, 209); text-decoration: none;
+}
+#qunit-tests li a:hover {
+	color: rgb(0, 0, 0);
+}
+#qunit-tests li a:focus {
+	color: rgb(0, 0, 0);
+}
+#qunit-tests li .runtime {
+	font-size: smaller; float: right;
+}
+.qunit-assert-list {
+	padding: 0.5em; border-radius: 5px; margin-top: 0.5em; background-color: rgb(255, 255, 255); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.qunit-collapsed {
+	display: none;
+}
+#qunit-tests table {
+	margin-top: 0.2em; border-collapse: collapse;
+}
+#qunit-tests th {
+	padding: 0px 0.5em 0px 0px; text-align: right; vertical-align: top;
+}
+#qunit-tests td {
+	vertical-align: top;
+}
+#qunit-tests pre {
+	margin: 0px; white-space: pre-wrap; -ms-word-wrap: break-word;
+}
+#qunit-tests del {
+	color: rgb(55, 78, 12); text-decoration: none; background-color: rgb(224, 242, 190);
+}
+#qunit-tests ins {
+	color: rgb(85, 0, 0); text-decoration: none; background-color: rgb(255, 202, 202);
+}
+#qunit-tests b.counts {
+	color: rgb(0, 0, 0);
+}
+#qunit-tests b.passed {
+	color: rgb(94, 116, 11);
+}
+#qunit-tests b.failed {
+	color: rgb(113, 9, 9);
+}
+#qunit-tests li li {
+	padding: 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; list-style-position: inside; background-color: rgb(255, 255, 255);
+}
+#qunit-tests li li.pass {
+	color: rgb(60, 81, 12); border-left-color: rgb(198, 231, 70); border-left-width: 10px; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+#qunit-tests .pass {
+	color: rgb(82, 140, 224); background-color: rgb(210, 224, 230);
+}
+#qunit-tests .pass .test-name {
+	color: rgb(54, 96, 151);
+}
+#qunit-tests .pass .test-actual {
+	color: rgb(153, 153, 153);
+}
+#qunit-tests .pass .test-expected {
+	color: rgb(153, 153, 153);
+}
+.qunit-pass#qunit-banner {
+	background-color: rgb(198, 231, 70);
+}
+#qunit-tests li li.fail {
+	color: rgb(113, 9, 9); border-left-color: rgb(238, 87, 87); border-left-width: 10px; border-left-style: solid; white-space: pre; background-color: rgb(255, 255, 255);
+}
+#qunit-tests > li:last-child {
+	border-radius: 0px 0px 5px 5px; -moz-border-radius: 0 0 5px 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+#qunit-tests .fail {
+	color: rgb(0, 0, 0); background-color: rgb(238, 87, 87);
+}
+#qunit-tests .fail .test-name {
+	color: rgb(0, 0, 0);
+}
+#qunit-tests .fail .module-name {
+	color: rgb(0, 0, 0);
+}
+#qunit-tests .fail .test-actual {
+	color: rgb(238, 87, 87);
+}
+#qunit-tests .fail .test-expected {
+	color: green;
+}
+.qunit-fail#qunit-banner {
+	background-color: rgb(238, 87, 87);
+}
+#qunit-testresult {
+	padding: 0.5em 0.5em 0.5em 2.5em; color: rgb(43, 129, 175); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(210, 224, 230);
+}
+#qunit-testresult .module-name {
+	font-weight: bold;
+}
+#qunit-fixture {
+	left: -10000px; top: -10000px; width: 1000px; height: 1000px; position: absolute;
+}
